@@ -1,0 +1,11 @@
+{
+  "name": "private-fleet-manager",
+  "scripts": {
+    "start:frontend": "cd frontend-angular && ng serve",
+    "start:backend": "cd backend-nodejs && npm run dev",
+    "start:dev": "concurrently \"npm run start:frontend\" \"npm run start:backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

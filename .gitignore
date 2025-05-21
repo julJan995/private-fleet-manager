@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Angular
+frontend-angular/dist/
+frontend-angular/.angular/
+
+# Backend
+backend-nodejs/dist/
+
+# Misc
+.DS_Store
+*.log
