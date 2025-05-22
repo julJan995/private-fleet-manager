@@ -1,0 +1,146 @@
+[
+    {
+      "id": 1,
+      "make": "Ford",
+      "model": "Transit",
+      "type": "Van",
+      "vin": "1FTBW2CM5KKA88267",
+      "registrationNumber": "WA 12345",
+      "productionYear": 2020,
+      "mileage": 85000,
+      "fuelType": "Diesel",
+      "engineCapacity": 2200,
+      "power": 170,
+      "currentLocation": "Warsaw Depot",
+      "purchaseDate": "2020-03-15T00:00:00.000Z",
+      "lastServiceDate": "2023-11-20T00:00:00.000Z",
+      "lastServiceDescription": "Full service and brake pad replacement",
+      "insurance": {
+        "provider": "Allianz",
+        "policyNumber": "POL-2020-FORD-001",
+        "startDate": "2023-12-01T00:00:00.000Z",
+        "expirationDate": "2024-11-30T00:00:00.000Z",
+        "coverageType": "Full Comprehensive",
+        "premium": true
+      },
+      "technicalInspection": {
+        "inspectionDate": "2023-10-15T00:00:00.000Z",
+        "expirationDate": "2024-10-15T00:00:00.000Z",
+        "result": "PASSED",
+        "inspectionNumber": "INSP-2023-001"
+      },
+      "maintenanceHistory": [
+        {
+          "id": "maint-1",
+          "date": "2023-06-10T00:00:00.000Z",
+          "description": "Oil change and filter replacement",
+          "cost": 250,
+          "performedBy": "Ford Service Center"
+        }
+      ],
+      "notes": "Primary delivery vehicle for urban routes",
+      "purchasePrice": 35000,
+      "currentValue": 28000,
+      "color": "White",
+      "seatingCapacity": 3,
+      "loadCapacity": 1500,
+      "createdAt": "2020-03-15T00:00:00.000Z",
+      "updatedAt": "2023-11-20T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "make": "Tesla",
+      "model": "Model 3",
+      "type": "Car",
+      "vin": "5YJYGDEF5L1F34567",
+      "registrationNumber": "WA 67890",
+      "productionYear": 2022,
+      "mileage": 45000,
+      "fuelType": "Electric",
+      "engineCapacity": 0,
+      "power": 250,
+      "currentLocation": "Executive Fleet",
+      "purchaseDate": "2022-05-20T00:00:00.000Z",
+      "lastServiceDate": "2023-09-15T00:00:00.000Z",
+      "lastServiceDescription": "Software update and battery check",
+      "insurance": {
+        "provider": "AXA",
+        "policyNumber": "POL-2022-TESLA-002",
+        "startDate": "2023-11-01T00:00:00.000Z",
+        "expirationDate": "2024-10-31T00:00:00.000Z",
+        "coverageType": "Premium Electric Vehicle Coverage",
+        "premium": true
+      },
+      "technicalInspection": {
+        "inspectionDate": "2023-08-20T00:00:00.000Z",
+        "expirationDate": "2024-08-20T00:00:00.000Z",
+        "result": "PASSED",
+        "inspectionNumber": "INSP-2023-002"
+      },
+      "maintenanceHistory": [
+        {
+          "id": "maint-2",
+          "date": "2023-06-15T00:00:00.000Z",
+          "description": "Tire rotation and brake system check",
+          "cost": 150,
+          "performedBy": "Tesla Service Center"
+        }
+      ],
+      "notes": "Executive transport vehicle",
+      "purchasePrice": 55000,
+      "currentValue": 48000,
+      "color": "Midnight Silver",
+      "seatingCapacity": 5,
+      "loadCapacity": 400,
+      "createdAt": "2022-05-20T00:00:00.000Z",
+      "updatedAt": "2023-09-15T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "make": "Mercedes-Benz",
+      "model": "Sprinter",
+      "type": "Truck",
+      "vin": "WD3PF4CC6F5678901",
+      "registrationNumber": "WA 54321",
+      "productionYear": 2019,
+      "mileage": 120000,
+      "fuelType": "Diesel",
+      "engineCapacity": 2900,
+      "power": 190,
+      "currentLocation": "Logistics Center",
+      "purchaseDate": "2019-07-10T00:00:00.000Z",
+      "lastServiceDate": "2023-10-05T00:00:00.000Z",
+      "lastServiceDescription": "Major service including transmission fluid change",
+      "insurance": {
+        "provider": "Generali",
+        "policyNumber": "POL-2019-MERCEDES-003",
+        "startDate": "2023-12-15T00:00:00.000Z",
+        "expirationDate": "2024-12-14T00:00:00.000Z",
+        "coverageType": "Commercial Vehicle Insurance",
+        "premium": true
+      },
+      "technicalInspection": {
+        "inspectionDate": "2023-09-10T00:00:00.000Z",
+        "expirationDate": "2024-09-10T00:00:00.000Z",
+        "result": "PASSED",
+        "inspectionNumber": "INSP-2023-003"
+      },
+      "maintenanceHistory": [
+        {
+          "id": "maint-3",
+          "date": "2023-07-20T00:00:00.000Z",
+          "description": "Brake system overhaul",
+          "cost": 1200,
+          "performedBy": "Mercedes Service Center"
+        }
+      ],
+      "notes": "Long-distance logistics truck",
+      "purchasePrice": 65000,
+      "currentValue": 40000,
+      "color": "Silver",
+      "seatingCapacity": 3,
+      "loadCapacity": 3500,
+      "createdAt": "2019-07-10T00:00:00.000Z",
+      "updatedAt": "2023-10-05T00:00:00.000Z"
+    }
+]

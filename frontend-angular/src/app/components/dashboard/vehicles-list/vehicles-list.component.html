@@ -1,0 +1,7 @@
+@if (vehiclesList$ | async; as vehicles) {
+    @for (vehicle of vehicles; track vehicle.id) {
+        <div> {{ vehicle.id }} {{ vehicle.model }} </div>
+    }
+} @else {
+    <div>Ładowanie pojazdów...</div>
+}
