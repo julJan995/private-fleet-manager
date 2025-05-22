@@ -1,6 +1,6 @@
+@use '../../../styles/mixins' as mixins;
+
 .dashboard {
-    height: 200px;
-    width: 500px;
-    background-color: var(--white);
-    border-radius: 20px;
+    @include mixins.card(800px, 300px);
+    margin-top: 20px;
 }
